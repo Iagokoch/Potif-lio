@@ -17,6 +17,7 @@
     --color-white: #f6f6f6;
     --color-destaque1: #e7fc00;
     --color-destaque2: #728e6f;
+    --color-destaque3: rgb(173, 6, 6);
 }
 
 /* Estilizando a barra de rolagem */
@@ -248,7 +249,7 @@ a {
 }
 
 .nav-menu a:hover {
-    color: var(--color-destaque1);
+    color: var(--color-destaque3);
     transition: all 0.3s ease;
 }
 
